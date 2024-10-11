@@ -1,0 +1,13 @@
+{
+"languageserver":{
+   "ccls": {
+    "command": "ccls",
+    "filetypes": ["c", "cpp", "objc", "objcpp"],
+    "trace.server": "verbose",
+    "initializationOptions": {
+      "highlight": {"lsRanges": true},
+      "cacheDirectory": "/tmp/ccls"
+    }
+  }
+}
+}
